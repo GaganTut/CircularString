@@ -10,6 +10,7 @@ describe('findWord function', () => {
     expect(findWord('applepie', 'pie')).to.equal(true);
     expect(findWord('Linear', 'line')).to.equal(true);
     expect(findWord('Pumpkin', 'trap')).to.equal(false);
+    expect(findWord('cat', 'catcatcatcat')).to.equal(true);
   });
 
   it('should find words circularly from the source', () => {
