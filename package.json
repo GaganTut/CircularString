@@ -1,0 +1,25 @@
+{
+  "name": "CircularString",
+  "version": "1.0.0",
+  "description": "",
+  "main": "circular.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaganTut/CircularString.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaganTut/CircularString/issues"
+  },
+  "homepage": "https://github.com/GaganTut/CircularString#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "mocha": "^3.2.0"
+  }
+}
